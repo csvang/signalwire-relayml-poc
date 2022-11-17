@@ -1,0 +1,18 @@
+{
+  "name": "relayml-poc",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chue Shee Vang",
+  "license": "ISC",
+  "dependencies": {
+    "@signalwire/realtime-api": "^3.6.0-dev.202211101554.ff4eda6.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
